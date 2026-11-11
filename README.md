@@ -1,3 +1,39 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cad3db73158f1ec3256fc4345c778c522e5485989eb995454383ec2fab53141c
-size 1430
+# 全国大学生先进成图技术与产品信息建模创新大赛 · 山东省赛归档
+
+> 2026 年山东省大学生先进成图技术与产品信息建模创新大赛参赛资料。
+> 🏅 **轻量化设计与 AI 应用赛道 省二等奖** ｜ **机械成图技术团体赛道 省三等奖**。
+
+## 🏅 获奖证书
+
+| 轻量化设计与 AI 应用 · 省二等奖 | 机械成图技术团体 · 省三等奖 |
+|---|---|
+| [轻量化设计与AI应用-省二等奖.jpg](awards/轻量化设计与AI应用-省二等奖.jpg) | [机械成图技术团体-省三等奖.jpg](awards/机械成图技术团体-省三等奖.jpg) |
+
+## 📸 现场素材
+
+| 参赛团队合影 | 参赛记录 | 过程截图 |
+|---|---|---|
+| [参赛团队合影.jpg](media/event/参赛团队合影.jpg) | [参赛记录.jpg](media/event/参赛记录.jpg) | [屏幕截图 2026-05-30 010057.png](media/process/屏幕截图%202026-05-30%20010057.png) |
+
+## 📂 归档内容
+
+| 目录 | 内容 |
+| --- | --- |
+| `awards/` | 两张获奖证书 |
+| `documents/` | 赛场安排 `.xlsx` |
+| `models/cad/` | 个人参赛 CAD：全套编号零件（SLDPRT / prt / stp）、机械提供件、装配体、二维图 `.dwg`、`.bak` |
+| `models/drawings/` | 2026 山东成图大赛机械竞赛模板 `.dwg`、二维图、SLDDRW 工程图 |
+| `models/practice/` | 建模练习文件 |
+| `reference-materials/` | 历年练习题（第 12 届、2022 第十五届国赛机械类建模卷 A、校选拔题）、成图大赛笔记与问题记录 |
+| `tools/` | 机械赛道提交工具（`.exe` + 7z 依赖 + 注意事项） |
+
+## 🛠 打开方式
+
+- `SLDPRT` / `SLDASM` / `SLDDRW` → SolidWorks；
+- `STEP` / `STP` 通用交换格式；
+- `PRT` 可能需要 Siemens NX；`DWG` → AutoCAD；
+- CAD 装配体依赖同目录零件，请勿单独移动零件。
+
+## ⚠️ LFS 说明
+
+CAD、图片等大文件由 **Git LFS** 托管；本地克隆需先安装 `git-lfs` 再 `git lfs pull`。
